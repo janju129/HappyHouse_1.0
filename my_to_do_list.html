@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+  Best site: https://www.w3schools.com/howto/howto_js_todolist.asp
+-->
+
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/my_to_do_list.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="anchor">
+      <div class="header" id="to-do-list-header">
+        <div class="centered">
+          <p id="headTitle"><b>MY TO DO LIST</b></p>
+        </div>
+        <div class="left-side">
+          <a href="index.html" id="homepage"><i class="fas fa-home"></i><a>
+        </div>
+      </div>
+    </div>
+    <div class="spacer">
+
+    </div>
+
+    <div id="In-Progress" class="tabcontent">
+
+      <!-- POPUP FOR COMPLETING TASK-->
+      <div class="complete-task-popup-background">
+
+        <div class="complete-task-popup-content">
+          <div id="complete-text">
+            <label for="complete-confirmation" id="complete-confirmation"><b>Completed?</b></label><br>
+          </div>
+          <div id="yes-button">
+            <button type="submit" onclick="removeFromList()">Yes</button>
+          </div>
+          <div id="no-button">
+            <button type="submit" onclick="returnToList()">No</button>
+          </div>
+
+        </div>
+      </div>
+
+
+      <ol id="newEntry">
+        <script id="inProgress" type="text/x-handlebars-template">
+          <li class="entry">
+            <div class="taskName">
+              <p style="margin:0px;">{{taskName}}</p>
+            </div>
+            <div class="assignerName">
+              <p style="margin: 0px; font-size:20px;">Assigned By: {{assignerName}}</p>
+            </div>
+            <div class="completeButton">
+              <button onclick="openCompletePopup('{{taskName}}')">Completed?</button>
+            </div>
+          </li>
+        </script>
+      </ol>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="js/handlebars-v4.0.11.js"></script>
+  <script type="text/javascript" src="js/to-do-list.js"></script>
+  <script type="text/javascript" src="js/local-storage.js"></script>
+
+</html>
