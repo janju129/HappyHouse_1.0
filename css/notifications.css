@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+  font-family: 'Quicksand';
+  background-color: #FFFACD; /*lemmonchiffon*/
+}
+
+#notifications-header {
+  margin: 0 auto;
+  position: relative;
+  background: #ffe680;
+  color: grey;
+  overflow: hidden;
+  padding: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+#headTitle{
+  font-size: 70px;
+  color: black;
+}
+
+.centered {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.left-side a {
+  float: left;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 70px;
+  color: #362819;
+}
+
+i:hover{
+  color: #e68a00;
+}
+
+.notification-group {
+  margin: 10px 20px 10px 20px;
+  padding: 30px;
+  color: black;
+  background-color: #ffd480;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.notification-group{
+  margin-bottom: 10px;
+}
+
+.notification-group p {
+  margin: 0;
+}
+
+.Time-stamp {
+  float: right;
+  font-size: 20px;
+}
+
+.Text-on-notification1{
+  clear:right;
+}
+
+.delete{
+  float:right;
+  background-color:#FFFACD;
+  font-size:25px;
+}

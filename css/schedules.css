@@ -1,0 +1,188 @@
+body {
+    margin: 0 auto;
+    font-family: 'Quicksand';
+    background-color: #FFFACD; /*lemmonchiffon*/
+ }
+
+ #schedules-header {
+   margin: 0 auto;
+   position: relative;
+   background: #ffe680;
+   color: grey;
+   overflow: hidden;
+   padding: 30px;
+   padding-left: 45px;
+   padding-right: 45px;
+   font-family: 'Quicksand';
+ }
+
+ #headTitle{
+   font-size: 70px;
+   color: black;
+ }
+
+ .centered {
+   margin: 0 auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-size: 20px;
+   transform: translate(-50%, -50%);
+ }
+
+ .left-side a {
+   float: left;
+   margin: 0 auto;
+ }
+
+ .right-side a {
+   float: right;
+   margin: 0 auto;
+ }
+
+ #badge {
+   position: absolute;
+   right: 40px;
+   padding: 5px 10px;
+   border-radius: 50%;
+   background: red;
+   color: white;
+   font-size: 15px;
+   font-family: sans-serif;
+ }
+
+ i {
+   font-size: 70px;
+   color: #362819;
+ }
+
+ i:hover{
+   color: #e68a00;
+ }
+
+ * {box-sizing: border-box}
+
+ /* Set height of body and the document to 100% */
+ body, html {
+     height: 100%;
+     margin: 0 auto;
+     font-family: 'Quicksand';
+     background-color: #FFFACD; /*lemmonchiffon*/
+ }
+
+ /* Style tab links */
+ .tablink {
+     background-color: #E8E8E8;
+     background-color: #ffcc80;
+     color: black;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     font-size: 40px;
+     font-family: 'Quicksand';
+     /*width: 33.3333%; */
+     width: 50%;
+     margin: 0;
+ }
+
+ .tablink:hover {
+     background-color: #ffebcc;
+ }
+
+ /* Style the tab content (and add height:100% for full page content) */
+ .tabcontent {
+     color: black;
+     display: none;
+     padding: 100px 20px;
+     height: 100%;
+     text-align: center;
+ }
+
+ .tabheader{
+   padding: 20px 20px;
+ }
+
+
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* popup content */
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-size: 25px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  /*padding-right: 300px;
+  padding-left: 300px; */
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+li{
+  background-color: #ffd480;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+button {
+  background-color: #f5f5ef;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgrey;
+}
+
+#writeBill, #addBill{
+    border-radius: 8px;
+}
+
+.textbox{
+    height:40px;
+    font-size:22pt;
+    font-family: 'Quicksand';
+    flex-flow: center;
+}

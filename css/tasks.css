@@ -1,0 +1,408 @@
+/* For the header */
+#tasks-header {
+  margin: 0 auto;
+  position: relative;
+  background: #ffe680;
+  color: grey;
+  overflow: hidden;
+  font-family: sans-serif;
+  padding: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+#headTitle{
+  font-size: 70px;
+  font-family: 'Quicksand';
+  color: black;
+}
+
+i {
+  font-size: 70px;
+  color: #362819;
+}
+
+i:hover{
+  color: #e68a00;
+}
+
+.anchor{
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.spacer{
+    width: 100%;
+    height: 275px;
+}
+
+/* To center the objects */
+.centered {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+
+.textIP{
+    margin: 0 auto;
+    left: 50%;
+}
+
+.tabcontent{
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+
+/* To position the homepage icon*/
+.left-side a {
+  float: left;
+  margin: 0 auto;;
+}
+
+body {
+    overflow: none;
+    background-color: #FFFACD; /*lemmonchiffon*/
+}
+
+.right-side a {
+  float: right;
+  margin: 0 auto;
+}
+
+#badge {
+  position: absolute;
+  right: 40px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+/*
+ * FOR THE MENU
+ */
+.tablink{
+     color: black;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     font-size: 40px;
+     font-family: 'Quicksand';
+     width: 33.33%;
+     margin: 0;
+     background-color: #ffcc80;
+
+}
+
+.tablink:hover{
+    background-color: #ffebcc;
+}
+
+body, html{
+    height: 100%;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: 'Quicksand';
+}
+
+button{
+  margin-top: 50px;
+
+}
+
+ /*
+  * FOR THE IN-PROGRESS TAB
+  */
+    .inprogresslist{
+      margin: 10px;
+      margin-right: 10%;
+      margin-left: 10%;
+      padding: 10px;
+      padding-bottom: 25px;
+      font-family: 'Quicksand';
+    }
+
+    ol {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Quicksand';
+    }
+
+    .messageThread li{
+      padding: 15px;
+      background-color: #ffd480;
+      width: 50%;
+      margin-left: 25%;
+      margin-top:10px;
+    }
+
+   /*
+    * FOR THE COMPLETED TAB
+    */
+   .completedList{
+     background-color: #ffd480;
+     margin: 10px;
+     margin-right: 10%;
+     margin-left: 10%;
+     padding: 10px;
+     padding-bottom: 25px;
+     font-family: 'Quicksand';
+   }
+
+
+.container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+/* Popup for adding new tasks*/
+.popup-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity:1;
+    position:fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+    font-family: 'Quicksand';
+}
+
+.popup-warning{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity:1;
+    position:fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+    font-family: 'Quicksand';
+}
+
+.popup-content{
+    width: 250px;
+    width: 500px;
+    position:fixed;
+    display:flex;
+    height: 200px;
+    height: 300px;
+    background-color: white;
+    font-family: 'Quicksand';
+    opacity:1;
+    display:none;
+}
+
+.warning-content{
+    width: 350px;
+    position:fixed;
+    display:flex;
+    height: 200px;
+    background-color: white;
+    font-family: 'Quicksand';
+    opacity:1;
+    display:none;
+}
+
+
+.confirmation-content{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 4px;
+    opacity:1;
+    display: table;
+    display:none;
+    font-family: 'Quicksand';
+}
+
+form{
+    top:50%;
+    width:50%;
+    margin:0 auto;
+    font-family: 'Quicksand';
+}
+
+.close{
+    margin-top:10%;
+    margin-left:85%;
+    text-align: center;
+    background-color:grey;
+    color: white;
+}
+
+.warning-close{
+    margin-top:10%;
+    margin-left:85%;
+    text-align: center;
+    background-color:grey;
+    color: white;
+}
+
+#task-description{
+    height:20px;
+    width:200px;
+    font-family: 'Quicksand';
+}
+
+label{
+    font-size:40px;
+    font-family: 'Quicksand';
+}
+
+.task-popup{
+    margin:7px;
+    font-family: 'Quicksand';
+}
+
+.task_name{
+    margin:0px;
+    float:left;
+    margin-left:10px;
+    font-size:30px;
+    font-family: 'Quicksand';
+}
+
+.fixedbutton {
+    position: fixed;
+    top: 167px;
+    left:35%;
+    background-color: #f5f5ef;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Quicksand';
+}
+
+.fixedbutton:hover{
+    background-color: lightgrey;
+}
+
+#assignButton{
+    float: center;
+    left:55%;
+    display: none;
+}
+
+.task_checkbox{
+    float:left;
+    margin-left: 10%;
+    transform:scale(1.5);
+}
+
+#tasks {
+    overflow-y: scroll;
+    height: 425px;
+    z-index: -1;
+}
+
+#initial {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+.creator{
+    margin-bottom:1px;
+    float:right;
+    font-size: 25px;
+}
+
+.time{
+    margin:0px;
+    float:right;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-bottom:5px;
+    font-family: 'Quicksand';
+}
+
+.username_div{
+    font-size: 30px;
+    float:right;
+    font-family: 'Quicksand';
+}
+
+.time_div{
+
+    clear:right;
+    float:right;
+    font-size: 25px;
+    font-family: 'Quicksand';
+
+}
+
+.entry{
+    height:150px;
+    font-family: 'Quicksand';
+}
+
+.in-progress-entry{
+    height:150px;
+    background-color: #ffd480;
+}
+
+
+#inProgressTasks{
+    overflow-y: scroll;
+    height: 425px;
+    z-index: -1;
+}
+
+.complete-entry{
+    height:150px;
+    background-color: #ffd480;
+}
+
+#completedTasks{
+    overflow-y: scroll;
+    height: 425px;
+    z-index: -1;
+}
+
+#assignUser{
+  font-size: 40px;
+}
+
+#cancelbutton, #assignbutt, #donebutton{
+  background-color: #f5f5ef;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#pendingApproval{
+  font-size: 30px;
+}

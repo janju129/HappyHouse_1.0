@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+    font-family: 'Quicksand';
+    background-color: #FFFACD; /*lemmonchiffon*/
+  }
+
+    #house-rules-header {
+      margin: 0 auto;
+      position: relative;
+      background: #ffe680	;
+      color: grey;
+      overflow: hidden;
+      font-family: 'Quicksand';
+      padding: 30px;
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+
+    #headTitle{
+      font-size: 70px;
+      color: black;
+    }
+
+    .centered {
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 20px;
+      transform: translate(-50%, -50%);
+    }
+
+    .left-side a {
+      float: left;
+      margin: 0 auto;
+    }
+
+    .right-side a {
+      float: right;
+      margin: 0 auto;
+    }
+
+    .right-side .badge {
+      position: absolute;
+      right: 40px;
+      padding: 5px 12px;
+      border-radius: 50%;
+      background: red;
+      color: white;
+    }
+
+    #badge {
+      position: absolute;
+      right: 40px;
+      padding: 5px 10px;
+      border-radius: 50%;
+      background: red;
+      color: white;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+
+    i {
+      font-size: 70px;
+      color: #362819;
+    }
+
+    i:hover{
+      color: #e68a00;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    .house-rules li {
+      margin: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 15px;
+      background-color: #ffd480;
+      font-size: 40px;
+      font-family: 'Quicksand';
+    }
+
+    /* Style the close button */
+    .close {
+      float: right;
+      padding: 2px;
+    }
+
+    .close:hover {
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    /* Style the input */
+    input {
+      margin: 10px;
+      font-size: 35px;
+      font-family: 'Quicksand';
+    }
+
+    /* Style the "Add" button */
+   /*.addBtn {*/
+   #addBtn {
+     background-color: #f5f5ef;
+     color: black;
+     padding: 15px 32px;
+     text-align: center;
+     font-size: 35px;
+     cursor: pointer;
+    }
+
+    #addBtn:hover{
+      background-color: lightgrey;
+    }
